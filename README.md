@@ -151,20 +151,7 @@ class MyParameters extends MultiAttributes
     }
 ...
 ```
-La clase `MyFormRequest` debe tener por lo menos el método `rules()`; `params()` y `messages()` son opcionales.
-```php
-class MyFormRequest extends FormRequest {
-
-	public function rules()
-    {
-    	return [
-			'user' => 'required',
-			'pass' => 'required|min:6',
-    	];
-    }
-...
-```
-Despues en tu controlador:
+Después en tu controlador:
 ```php
 use Sham\LoadParameters\Load;
 
