@@ -1,7 +1,7 @@
 {
     "name": "sham/load-parameters-laravel",
     "type": "library",
-    "description": "Carga los parámetros enviados por PUT, POST o GET; y los valida según las reglas aseignadas.",
+    "description": "Carga los parámetros enviados por PUT, POST o GET; y los valida según las reglas asignadas.",
     "license": "MIT",
     "authors": [
         {

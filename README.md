@@ -1,4 +1,4 @@
-# load Parameters Laravel 5 y Lumen
+# Load Parameters Laravel 5 y Lumen
 Carga los parámetros enviados por PUT, POST o GET; y los valida según las reglas asignadas en el proyecto.
 
 Esta librería lo primero que hace es cargar los datos enviados a la url, después les asigna un nuevo nombre a cada variable (en caso se haya especificado) y finalmente se valida los datos con el [Validador de Laravel](https://laravel.com/docs/master/validation). Si todo los datos son correctos, retorna los inputs enviados en un array, sino retornará los errores encontrados.
@@ -10,6 +10,9 @@ La librería maneja tres aspectos importantes:
 
 ## Instalación
 La instalación actual es sólo por composer
+```sh
+composer require sham/load-parameters-laravel
+```
 
 ## Uso
 Actualmente hay tres formas de uso de la librería:
