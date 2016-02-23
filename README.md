@@ -11,7 +11,7 @@ La librería maneja tres aspectos importantes:
 ## Instalación
 La instalación actual es sólo por composer
 ```sh
-composer require sham/load-parameters-laravel
+composer require sham/load-parameters-laravel dev-master
 ```
 
 ## Uso
